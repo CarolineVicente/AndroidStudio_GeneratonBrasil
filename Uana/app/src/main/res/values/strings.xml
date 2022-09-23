@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Uana</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="foto_do_produto">Foto do Produto</string>
+    <string name="descreva_o_produto">Descreva o Produto</string>
+    <string name="estoque">Estoque</string>
+    <string name="nome_do_produto">Nome do Produto</string>
+    <string name="downloadimage">downloadimage</string>
+    <string name="cadastro_de_produto">Cadastro de Produto</string>
+    <string name="insira_o_link_da_imagem_do_produto">Insira o link da imagem do produto</string>
+</resources>
