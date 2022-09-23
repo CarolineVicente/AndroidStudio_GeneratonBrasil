@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Activities e Intents</string>
+    <string name="pr_ximo">Próximo</string>
+    <string name="button">Button</string>
+    <string name="voltar">voltar</string>
+</resources>
