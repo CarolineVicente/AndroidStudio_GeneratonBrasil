@@ -9,4 +9,6 @@
     <string name="downloadimage">downloadimage</string>
     <string name="cadastro_de_produto">Cadastro de Produto</string>
     <string name="insira_o_link_da_imagem_do_produto">Insira o link da imagem do produto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

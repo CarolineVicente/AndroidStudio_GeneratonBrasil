@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deletar_tarefa">Deletar Tarefa</string>
+    <string name="em_andamento">Em Andamento</string>
+</resources>
