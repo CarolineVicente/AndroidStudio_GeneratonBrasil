@@ -1,5 +1,6 @@
 package com.example.todoandroid
 
+import android.icu.util.LocaleData
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -10,6 +11,7 @@ import com.example.todoandroid.model.Categoria
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import retrofit2.Response
+import java.time.LocalDate
 import javax.inject.Inject
 
 @HiltViewModel
@@ -26,6 +28,8 @@ class MainViewModel @Inject constructor(
     init {
         //listCategoria()
     }
+
+    val dataSelecionada = MutableLiveData<LocalDate>()
 
     fun listCategoria() {
         viewModelScope.launch {
