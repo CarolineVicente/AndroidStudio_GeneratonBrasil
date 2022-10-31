@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.sqlitecomroom.data
 
 import androidx.lifecycle.LiveData
@@ -16,4 +17,24 @@ interface UserDao {
     @Query("SELECT * FROM user_table ORDER BY id ASC")
     fun selectUser():LiveData<List<Usuario>>
 
+=======
+package com.example.sqlitecomroom.data
+
+import androidx.lifecycle.LiveData
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+
+@Dao
+interface UserDao {
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+
+    fun addUser(usuario: Usuario)
+
+    @Query("SELECT * FROM user_table ORDER BY id ASC")
+    fun selectUser():LiveData<List<Usuario>>
+
+>>>>>>> 83aadff4f6f0ddd2dc5d4d36da35f55db27653ce
 }
